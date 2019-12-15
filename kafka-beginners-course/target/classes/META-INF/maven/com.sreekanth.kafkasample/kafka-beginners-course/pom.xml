@@ -5,7 +5,9 @@
 	<groupId>com.sreekanth.kafkasample</groupId>
 	<artifactId>kafka-beginners-course</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients -->
 		<dependency>
@@ -19,7 +21,13 @@
 			<artifactId>slf4j-simple</artifactId>
 			<version>1.7.25</version>
 		</dependency>
+		<dependency>
+			<groupId>com.twitter</groupId>
+			<artifactId>hbc-core</artifactId> <!-- or hbc-twitter4j -->
+			<version>2.2.0</version> <!-- or whatever the latest version is -->
+		</dependency>
 
 
 	</dependencies>
+
 </project>
